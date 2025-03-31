@@ -9,6 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<MarketingPage/>} />
         <Route path="/admin" element={<AdminPage />} />
+        <Route path="*" element={<h1>Error 404</h1>} />
       </Routes>
     </Router>
   );
