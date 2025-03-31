@@ -1,10 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import AdminPage from "@/pages/admin";
+import MarketingPage from "./pages/marketing";
+
 const App = () => {
   return (
-    <>
-      <h1 className="bg-red-400">Welcome Lubusi</h1>
-      <p>Holaa</p>
-      <p>Cualquier cosa :v</p>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MarketingPage/>} />
+        <Route path="/admin" element={<AdminPage />} />
+      </Routes>
+    </Router>
   );
 };
 
