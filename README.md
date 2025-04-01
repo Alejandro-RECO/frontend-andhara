@@ -37,38 +37,21 @@ Breve descripción del proyecto, su propósito y el problema que resuelve.
 
 ```sh
 # Clonar el repositorio
-git clone https://github.com/usuario/repositorio.git
+git https://github.com/Alejandro-RECO/frontend-andhara.git
 
 # Ingresar al directorio
-cd repositorio
+cd frontend-andhara
 
 # Instalar dependencias
-npm install  # O comando equivalente
+bum install 
 ```
 
 ## ▶️ Uso
 
 ```sh
-npm start  # O comando de inicio del proyecto
+bum run dev
 ```
 
-## 🧪 Pruebas
-
-```sh
-npm test  # O comando de pruebas
-```
-
-## 📜 Documentación
-
-Para más detalles, consulta la [documentación](./docs/README.md).
-
-## 🤝 Contribución
-
-1. Haz un fork del repositorio
-2. Crea una rama con tu funcionalidad: `git checkout -b feature/nueva-feature`
-3. Realiza tus cambios y haz commit: `git commit -m 'Agregada nueva feature'`
-4. Sube los cambios: `git push origin feature/nueva-feature`
-5. Abre un Pull Request
 
 ## 👥 Contribuidores
 
@@ -78,15 +61,7 @@ Personas que han contribuido a este proyecto:
   <img src="https://contrib.rocks/image?repo=Alejandro-RECO/frontend-andhara" />
 </a>
 
-## 📄 Licencia
-
-Este proyecto está bajo la licencia [Nombre de la licencia](./LICENSE).
 
 ## 📅 Última Modificación
 
 Este archivo fue actualizado por última vez el: `dd/mm/yyyy`
-
-## 📞 Contacto
-
-- 📧 Email: correo@ejemplo.com
-- 🌐 Sitio Web: [ejemplo.com](https://ejemplo.com)
